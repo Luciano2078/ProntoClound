@@ -67,11 +67,17 @@ img {
 
 #tenho-interesse {
     background-color: #fff;
-    display: block;
-    float: left;
-    font-size: 1.5rem; /* equivalente a 15px */ 
-    padding: 20px;
     width: 100%;
+}
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
 }
 
 
